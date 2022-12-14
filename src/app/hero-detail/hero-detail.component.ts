@@ -10,4 +10,9 @@ export class HeroDetailComponent {
 
   @Input() hero?: Hero;
 
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
 }
